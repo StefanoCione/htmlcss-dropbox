@@ -189,3 +189,14 @@ section {
 #faqSection .faqContainer:first-of-type {
     border-top: 1px solid red;
 }
+
+/* !Footer */
+footer {
+    width: 100%;
+    background-color: beige;
+}
+
+#linkListsContainer {
+    display: flex;
+    gap: 3rem;
+}
