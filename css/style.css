@@ -85,3 +85,107 @@ header nav ul li a {
     width: 65%;
     background-color: red;
 }
+
+/* !main */
+main {
+    background-color: wheat;
+}
+
+.smallContainer {
+    margin: 8rem auto;
+    max-width: 1000px;
+    /* height: 20vh; */
+    background-color: thistle;
+}
+
+main #plans {
+
+    /*temp*/
+    width: 100%;
+    background-color: yellow;
+}
+
+#plans #planSelector {
+    margin: 1rem 0;
+}
+
+#plans #planSelector label {
+    margin-right: 1.5rem;
+}
+
+#plans .colContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+#plans .colContainer .col {
+
+
+    display: flex;
+    flex-direction: column;
+
+    border: 3px dotted red;
+}
+
+.smallCol {
+    width: calc((100% / 3) - calc(2rem / 3));
+}
+
+#plans .largeCol .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#partner {
+    background-color: teal;
+    margin: 5rem 0;
+    display: flex;
+}
+
+#partner .imgContainer {
+    background-color: violet;
+    width: 60%;
+}
+
+#partner .textContainer {
+
+    width: 40%;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: yellow;
+}
+
+.card {
+    width: 30%;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+}
+
+/* !section */
+section {
+    background-color: yellow;
+    margin-bottom: 2rem
+}
+
+#dropboxBusinessSection .smallContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#faqSection .faqContainer {
+    border-bottom: 1px solid red;
+}
+
+#faqSection .faqContainer:first-of-type {
+    border-top: 1px solid red;
+}
