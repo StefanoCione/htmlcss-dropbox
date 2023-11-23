@@ -5,3 +5,45 @@
     box-sizing: border-box;
 }
 
+/* Generals */
+.largecontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.smallcontainer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* !header */
+body > header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    background-color: aquamarine;
+    height: 8vh;
+    padding: 0 1.5rem;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav div ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 0.5rem;
+    background-color: blueviolet;
+}
