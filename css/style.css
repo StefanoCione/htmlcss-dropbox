@@ -6,6 +6,26 @@
 }
 
 /* Generals */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+
+}
+
+.bigBtn {
+    margin: 1rem 0;
+}
+
+.blueBtn {
+    color: #ffffff;
+    background-color: #0061ff;
+    border: none;
+}
+
 .largecontainer {
     max-width: 1200px;
     margin: 0 auto;
@@ -19,14 +39,13 @@
 /* !header */
 body>header {
     width: 100vw;
+    height: 8vh;
+    padding: 0 1.1rem;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
-
-    background-color: aquamarine;
-    height: 8vh;
-    padding: 0 1.5rem;
 }
 
 header nav {
@@ -39,19 +58,21 @@ header nav div ul {
     height: 100%;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     list-style: none;
 }
 
 header nav ul li a {
-    padding: 0.5rem;
-    background-color: blueviolet;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.4rem;
+    color: #000;
 }
 
 /* !jumbotron */
 #jumbotronSection {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 8vh;
     height: 50vh;
     background-color: turquoise;
 }
