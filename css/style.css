@@ -17,7 +17,7 @@
 }
 
 /* !header */
-body > header {
+body>header {
     width: 100vw;
     position: fixed;
     top: 0;
@@ -46,4 +46,42 @@ header nav div ul {
 header nav ul li a {
     padding: 0.5rem;
     background-color: blueviolet;
+}
+
+/* !jumbotron */
+#jumbotronSection {
+    width: 100%;
+    margin-top: 100px;
+    height: 50vh;
+    background-color: turquoise;
+}
+
+#jumbotronSection>.largeContainer {
+    height: 100%;
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+}
+
+#jumbotronSection>.largeContainer h1 {
+    margin: 2rem 0;
+}
+
+#jumbotronSection .largeContainer>div {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#jumbotronSection .largeContainer>div>div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35%;
+    background-color: yellow;
+}
+
+#jumbotronSection .largeContainer>div>div:last-child {
+    width: 65%;
+    background-color: red;
 }
