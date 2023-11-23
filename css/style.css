@@ -13,7 +13,6 @@ body {
 .btn {
     border: 1px solid black;
     padding: 0.5rem 1rem;
-
 }
 
 .bigBtn {
@@ -60,6 +59,12 @@ header nav div ul {
     align-items: center;
     gap: 1.5rem;
     list-style: none;
+}
+
+header nav div ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 header nav ul li a {
