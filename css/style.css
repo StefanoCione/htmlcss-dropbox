@@ -155,6 +155,44 @@ img {
     flex-basis: calc(100% / 4);
 }
 
+/* flex column */
+
+.col1-3 {
+    flex-basis: calc(100% / 3);
+}
+
+.col-30 {
+    flex-basis: 30%;
+}
+
+.col-32 {
+    flex-basis: 32%;
+}
+
+.col-40 {
+    flex-basis: 40%;
+}
+
+.col-50{
+    flex-basis: 50%;
+}
+
+.col-25{
+    flex-basis: 25%;
+}
+
+.col-40{
+    flex-basis: 39%;
+}
+
+.col-60{
+    flex-basis: 59%;
+}
+
+.col-70{
+    flex-basis: 70%;
+}
+
 /* button */
 
 .btn {
@@ -277,7 +315,7 @@ nav ul li {
 /* jumbotron */
 
 .jumbotron {
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: #64cbd3;
 }
 
@@ -288,28 +326,21 @@ nav ul li {
 }
 
 .jumbo-text p {
-    margin-bottom: 5px;
-    font-size: 12px;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 
 .jumbo-text>div {
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 .fa-arrow-down {
-    padding-top: 20px;
+    padding-top: 30px;
     color: black;
-    font-size: 30px;
-}
-
-.jumbo-text {
-    flex-basis: 39%;
-}
-
-.jumbo-image {
-    flex-basis: 59%;
+    font-size: 50px;
 }
 
 .container-60 {
-    margin-bottom: -50PX;
+    position: relative;
+    top: 50px;
 }
