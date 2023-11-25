@@ -159,6 +159,7 @@ img {
 
 .btn {
     padding: 5px 15px;
+    text-decoration: none;
 }
 
 .blue {
@@ -188,9 +189,36 @@ img {
     float: right;
 }
 
+/* container misures */
+
+.container-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.container-70 {
+    width: 70%;
+    margin: auto;
+}
+
+.container-60 {
+    width: 60%;
+    margin: auto;
+}
+
+.container-55 {
+    width: 55%;
+    margin: auto;
+}
+
+.container-50 {
+    width: 50%;
+    margin: auto;
+}
+
 /* header */
 
-.navbar{
+.navbar {
     background-color: white;
     height: 60px;
     width: 100%;
@@ -200,7 +228,9 @@ img {
     z-index: 1;
 }
 
-header .logo, header ul, header a {
+header .logo,
+header ul,
+header a {
     vertical-align: middle;
     text-decoration: none;
 }
@@ -209,7 +239,8 @@ header ul a {
     padding: 30px 0;
 }
 
-header .logo, header ul {
+header .logo,
+header ul {
     margin-top: 3px;
 }
 
@@ -241,4 +272,44 @@ header .btn {
 nav ul li {
     display: inline;
     margin: 0 15px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    padding-top: 100px;
+    background-color: #64cbd3;
+}
+
+.jumbotron .title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.jumbo-text p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.jumbo-text>div {
+    padding-top: 5px;
+}
+
+.fa-arrow-down {
+    padding-top: 20px;
+    color: black;
+    font-size: 30px;
+}
+
+.jumbo-text {
+    flex-basis: 39%;
+}
+
+.jumbo-image {
+    flex-basis: 59%;
+}
+
+.container-60 {
+    margin-bottom: -50PX;
 }
