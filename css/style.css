@@ -1,66 +1,73 @@
 /* utility settings */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
-.unstyle{
+.unstyle-list {
     list-style: none;
 }
 
-img{
+.unstyle-a {
+    text-decoration: none;
+}
+
+img {
     width: 100%;
 }
 
 /* margin/padding */
 
-.margin-top100{
+.margin-top100 {
     margin-top: 100px;
 }
 
-.margin-tb{
+.margin-tb {
     margin: 20px 0;
 }
 
-.padding-1{
+.padding-1 {
     padding: 1%;
+}
+
+.margin-1 {
+    margin: 1%;
 }
 
 
 /* text align */
 
-.txt-c{
+.txt-c {
     text-align: center;
 }
 
-.txt-r{
+.txt-r {
     text-align: right;
 }
 
 /* inline/inline-block */
 
-.inline-b{
+.inline-b {
     display: inline-block;
 }
 
-.inline{
+.inline {
     display: inline;
 }
 
 /* Position */
 
-.p-rel{
+.p-rel {
     position: relative;
 }
 
-.p-abs{
+.p-abs {
     position: absolute;
 }
 
-.p-fixed{
+.p-fixed {
     position: fixed;
     top: 0;
     width: 100%;
@@ -69,81 +76,169 @@ img{
 
 /* flex settings */
 
-.flex-r{
+.flex-r {
     display: flex;
 }
 
-.flex-rr{
+.flex-rr {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.flex-c{
+.flex-c {
     display: flex;
     flex-direction: column;
 }
 
-.flex-cr{
+.flex-cr {
     display: flex;
     flex-direction: column-reverse;
 }
 
-.j-c-f-s{
+.j-c-f-s {
     justify-content: flex-start;
 }
 
-.j-c-f-e{
+.j-c-f-e {
     justify-content: flex-end;
 }
 
-.j-c-c{
+.j-c-c {
     justify-content: center;
 }
 
-.j-c-s-b{
+.j-c-s-b {
     justify-content: space-between;
 }
 
-.j-c-s-a{
+.j-c-s-a {
     justify-content: space-around;
 }
 
-.a-i-f-s{
+.a-i-f-s {
     align-items: flex-start;
 }
 
-.a-i-c{
+.a-i-c {
     align-items: center;
 }
 
-.a-i-f-e{
+.a-i-f-e {
     align-items: flex-end;
 }
 
-.a-i-stretch{
+.a-i-stretch {
     align-items: stretch;
 }
 
-.a-i-baseline{
+.a-i-baseline {
     align-items: baseline;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
-.wrap-r{
+.wrap-r {
     flex-wrap: wrap-reverse;
 }
 
-.basis1-3{
-    flex-basis: calc( 100% / 3 );
+.basis1-3 {
+    flex-basis: calc(100% / 3);
 }
 
-.basis1-2{
-    flex-basis: calc( 100% / 2 );
+.basis1-2 {
+    flex-basis: calc(100% / 2);
 }
 
-.basis1-4{
-    flex-basis: calc( 100% / 4 );
-} 
+.basis1-4 {
+    flex-basis: calc(100% / 4);
+}
+
+/* button */
+
+.btn {
+    padding: 5px 15px;
+}
+
+.blue {
+    background-color: #297AFE;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* float */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+/* header */
+
+.navbar{
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    padding: 15px 20px;
+    position: fixed;
+    border-bottom: 1px solid #CFCFD2;
+    z-index: 1;
+}
+
+header .logo, header ul, header a {
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+header ul a {
+    padding: 30px 0;
+}
+
+header .logo, header ul {
+    margin-top: 3px;
+}
+
+header .btn {
+    position: relative;
+    top: 0;
+    float: right;
+    margin-left: 15px;
+}
+
+.logo {
+    float: left;
+    margin-right: 15px;
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
