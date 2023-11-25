@@ -18,6 +18,13 @@ img {
     width: 100%;
 }
 
+.border-gray {
+    border: 1px solid gray;
+}
+
+.border-b-gray {
+    border-bottom: gray;
+}
 /* margin/padding */
 
 .margin-top100 {
@@ -26,6 +33,10 @@ img {
 
 .margin-top50 {
     margin-top: 50px;
+}
+
+.margin-top40 {
+    margin-top: 40px;
 }
 
 .margin-left10 {
