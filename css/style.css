@@ -158,6 +158,14 @@ img {
 
 /* padding Xpx 0 */
 
+.padding10-0 {
+    padding: 10px 0;
+}
+
+.padding20-0 {
+    padding: 20px 0;
+}
+
 .padding50-0 {
     padding: 50px 0;
 }
@@ -366,6 +374,7 @@ img {
     padding: 5px 15px;
     text-decoration: none;
     font-size: 12px;
+    text-align: center;
 }
 
 .blue {
@@ -519,7 +528,19 @@ nav ul li {
     text-indent: -10px;
     padding-left: 1.2em;
     line-height: 20px;
+    padding-top: 2rem;
+}
 
+#plans-table .btn {
+    margin: 10% 0;
+    width: 100%;
+}
+
+.short-line {
+    margin: 20px 0;
+    width: 40px;
+    height: 2px;
+    background-color: gray;
 }
 
 /* enterprise section */
