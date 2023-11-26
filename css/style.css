@@ -513,6 +513,15 @@ nav ul li {
     top: 50px;
 }
 
+/* business plans section */
+
+#plans-table li {
+    text-indent: -10px;
+    padding-left: 1.2em;
+    line-height: 20px;
+
+}
+
 /* enterprise section */
 
 #enterprise-btn {
@@ -529,6 +538,8 @@ nav ul li {
 .squares3 {
     height: calc(100vW / 3);
 }
+
+/* footer */
 
 footer {
     background-color: black;
