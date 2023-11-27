@@ -18,6 +18,10 @@ p {
     list-style: none;
 }
 
+.unstyle-list-a {
+    list-style: none;
+}
+
 .unstyle-a {
     text-decoration: none;
 }
@@ -26,9 +30,12 @@ img {
     width: 100%;
 }
 
-
 a {
     cursor: pointer;
+}
+
+a:hover {
+    filter: brightness(200%);
 }
 
 .border-gray {
@@ -37,6 +44,18 @@ a {
 
 .border-b-gray {
     border-bottom: 1px solid gray;
+}
+
+.border-top-gray {
+    border-top: 1px solid gray;
+}
+
+.line-height20 {
+    line-height: 20px;
+}
+
+.change-arrow {
+    cursor: pointer;
 }
 
 /* margin top */
@@ -383,6 +402,10 @@ a {
     cursor: pointer;
 }
 
+.btn:hover {
+    filter: brightness(150%)
+}
+
 .blue {
     background-color: #297AFE;
     color: white;
@@ -460,6 +483,11 @@ header ul a {
     padding: 30px 0;
 }
 
+header ul a:hover {
+    padding-bottom: 22px;
+    border-bottom: 2px solid #3A61F8;
+}
+
 header .logo,
 header ul {
     margin-top: 3px;
@@ -510,20 +538,25 @@ nav ul li {
 
 .jumbo-text p {
     margin-bottom: 25px;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .jumbo-text>div {
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .fa-arrow-down {
     padding-top: 30px;
     color: black;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .container-60 {
+    position: relative;
+    top: 50px;
+}
+
+#jumbo {
     position: relative;
     top: 50px;
 }
@@ -669,6 +702,21 @@ nav ul li {
 
 #button-square {
     background-color: #9fe4e9;
+}
+
+/* FAQ section */
+
+.txt-section p {
+    margin: 30px 0;
+    display: none;
+}
+
+.FAQ:hover p {
+    display: block;
+}
+
+.FAQ:hover .fa-chevron-down {
+    transform: rotate(3.142rad);
 }
 
 /* footer */
