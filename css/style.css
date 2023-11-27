@@ -562,10 +562,113 @@ nav ul li {
 
 /* squares section */
 
-.squares3 {
+#squares {
     height: calc(100vW / 3);
 }
 
+.col1-3>.col-50 {
+    height: 50%;
+}
+
+#s-one {
+    background-image: url('../img/designit.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #A2D39B;
+    border-style: inset;
+    border: 10px solid transparent;
+}
+
+#s-two {
+    background-image: url('../img/arizona_state_university.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #61082B;
+    border: 10px solid transparent;
+}
+
+#s-three {
+    background-image: url('../img/university_of_florida.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #0093CE;
+    border: 10px solid transparent;
+}
+
+#s-four {
+    background-image: url('../img/topps.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #FF1C1C;
+    border: 10px solid transparent;
+}
+
+#s-five {
+    background-image: url('../img/world_bicycle_relief.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #D5001F;
+    border: 10px solid transparent;
+}
+
+#s-six {
+    background-image: url('../img/hearst_corp.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #B4D0E7;
+    border: 10px solid transparent;
+}
+
+#s-seven {
+    background-image: url('../img/lonely_planet.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #0D2481;
+    border: 10px solid transparent;
+}
+
+#s-eight {
+    background-image: url('../img/clear_channel.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #FFD830;
+    border: 10px solid transparent;
+}
+
+#s-central {
+    background-color: lightgrey;
+}
+
+#s-central-in {
+    width: 100%;
+    padding: 2%;
+    background-image: url('../img/designit.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+#s-central-in>.short-line {
+    margin-top: 30%;
+    width: 30%;
+}
+
+#c-txt {
+    overflow: auto;
+    height: 40%;
+}
+
+#button-square {
+    background-color: #9fe4e9;
+}
 /* footer */
 
 footer {
@@ -597,5 +700,5 @@ footer a {
 }
 
 #language-section {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
