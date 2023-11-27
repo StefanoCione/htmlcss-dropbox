@@ -10,15 +10,7 @@ p {
     font-size: 12px;
 }
 
-.line-height20 {
-    line-height: 20px;
-}
-
 .unstyle-list {
-    list-style: none;
-}
-
-.unstyle-list-a {
     list-style: none;
 }
 
@@ -138,6 +130,12 @@ a:hover {
     padding-left: 20px;
 }
 
+/* padding-bottom */
+
+.padding-bottom20 {
+    padding-bottom: 20px;
+}
+
 /* padding % */
 
 .padding-1 {
@@ -188,6 +186,14 @@ a:hover {
 
 .padding20-0 {
     padding: 20px 0;
+}
+
+.padding30-0 {
+    padding: 30px 0;
+}
+
+.padding40-0 {
+    padding: 40px 0;
 }
 
 .padding50-0 {
